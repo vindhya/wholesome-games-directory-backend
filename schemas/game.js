@@ -1,4 +1,3 @@
-// import {MdLocalMovies as icon} from 'react-icons/md'
 import { FaGamepad as icon } from 'react-icons/fa'
 
 export default {
@@ -63,19 +62,40 @@ export default {
       name: 'platforms',
       title: 'Platforms',
       type: 'array',
-      of: [{ type: 'platform' }]
+      of: [
+        {
+          type: 'reference',
+          to: [{ type: 'platform' }]
+        }
+      ]
     },
     {
       name: 'genres',
       title: 'Genre(s)',
       type: 'array',
-      of: [{ type: 'genre' }]
+      of: [
+        {
+          type: 'reference',
+          to: [{ type: 'genre' }]
+        }
+      ]
     },
     {
       name: 'featured',
       title: 'Featured in',
       type: 'array',
-      of: [{ type: 'feature' }]
+      of: [
+        {
+          type: 'reference',
+          to: [{ type: 'feature' }]
+        }
+      ]
+    },
+    {
+      name: 'screenshots',
+      title: 'Screenshots',
+      type: 'array',
+      of: [{ type: 'image' }]
     }
   ]
 }

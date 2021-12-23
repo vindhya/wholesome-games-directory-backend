@@ -7,11 +7,6 @@ export default {
   icon,
   fields: [
     {
-      name: 'name',
-      title: 'Platform',
-      type: 'string'
-    },
-    {
       name: 'title',
       title: 'Platform label',
       type: 'string'
