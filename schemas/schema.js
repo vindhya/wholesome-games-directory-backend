@@ -13,6 +13,11 @@ import screening from './screening'
 import plotSummary from './plotSummary'
 import plotSummaries from './plotSummaries'
 
+import game from './game'
+import genre from './genre'
+import platform from './platform'
+import feature from './feature'
+
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
   // We name our schema
@@ -31,6 +36,11 @@ export default createSchema({
     plotSummary,
     plotSummaries,
     castMember,
-    crewMember
+    crewMember,
+    game,
+    genre,
+    platform,
+    feature
+    // TODO: add similar games
   ])
 })
