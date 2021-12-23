@@ -27,5 +27,7 @@
     "react-icons": "^3.11.0",
     "styled-components": "^5.2.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "prettier": "^2.5.1"
+  }
 }
