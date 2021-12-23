@@ -8,7 +8,7 @@ export default {
   fields: [
     {
       name: 'title',
-      title: 'Genre label',
+      title: 'Title',
       type: 'string'
     },
     {
