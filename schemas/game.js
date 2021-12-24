@@ -36,7 +36,7 @@ export default {
       type: 'boolean'
     },
     {
-      name: 'Image',
+      name: 'image',
       title: 'Image',
       type: 'image',
       options: {
