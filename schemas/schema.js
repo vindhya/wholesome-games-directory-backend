@@ -24,6 +24,6 @@ export default createSchema({
     genre,
     platform,
     feature
-    // TODO: add similar games and screenshots
+    // TODO: add similar games
   ])
 })

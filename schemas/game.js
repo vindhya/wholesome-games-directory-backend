@@ -90,12 +90,13 @@ export default {
           to: [{ type: 'feature' }]
         }
       ]
-    },
-    {
-      name: 'screenshots',
-      title: 'Screenshots',
-      type: 'array',
-      of: [{ type: 'image' }]
     }
+    // removed screenshots because it uses too much API bandwidth
+    // {
+    //   name: 'screenshots',
+    //   title: 'Screenshots',
+    //   type: 'array',
+    //   of: [{ type: 'image' }]
+    // }
   ]
 }
